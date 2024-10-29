@@ -1,0 +1,188 @@
+body {
+   min-height: 170vh;
+    background: linear-gradient(to bottom, #d4bbea, whitesmoke);
+    text-align: center;
+}
+
+.full {
+    min-height: 100vh;
+}
+
+p {
+    padding: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.imgContainer {
+    margin-top: 30px;
+
+}
+
+.captionBox {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.captionBox p {
+    flex: 1;
+    margin: 20px; 
+
+}
+
+/*escape*/
+
+
+.stay {
+    width: 165px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 200px; 
+}
+
+.bracelets {
+    width: 135px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 200px;
+}
+
+.atenine {
+    width: 125px;
+    height: 200px;
+    border-radius: 50%;
+
+
+}
+
+/* fandom */
+
+
+.tara {
+    width: 200px;
+    height:170px;
+    margin-right: 300px; 
+}
+
+.ollie {
+    width: 100px;
+    height: 170px;
+    margin-right: 370px;
+}
+
+.jr {
+    width: 130px;
+    height: 170px; 
+}
+
+/* role model */ 
+
+.rep {
+    width: 150px;
+    height: 200px;
+    margin-right: 300px;
+}
+
+.summit {
+    width: 270px;
+    height: 200px;
+    margin-right: 300px; 
+
+}
+
+.movie {
+
+    width: 150px;
+    height: 200px;
+
+}
+
+.tour {
+    width: 350px;
+    height: 200px; 
+
+}
+
+/*thanks*/
+.thanks {
+    width: 210px;
+    height: 290px;
+    border-radius: 70%;
+}
+
+
+/*surprise*/
+
+.password {
+    padding: 10px;
+    font-family: fantasy;
+    border-radius: 8px;
+   
+    
+   
+
+}
+
+.password:focus {
+    border-color: #710288; 
+    outline: none;
+    
+}
+.submit {
+    padding: 10px;
+    background-color: white;
+    font-family: fantasy;
+    border-radius: 8px ;
+}
+
+.submit:hover {
+    border-top: #710288;
+    outline: none;
+    cursor: pointer; 
+    transition: background-color 0.3s;
+    transform: scale(1.1); 
+}
+
+.secret {
+    display: none;
+}
+
+/*button*/
+
+
+.click {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: transform 0.3s, background-color 0.3s;
+    font-family: fantasy;
+
+}
+
+.click:hover {
+    transform: scale(1.1);
+    background-color: whitesmoke; 
+}
+
+/*footer*/
+
+.footer h3 {
+    margin-top: 100px;
+    
+    
+}
+
+
+.footer a {
+    
+    
+    color:black
+}
+
+
+

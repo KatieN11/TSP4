@@ -1,0 +1,197 @@
+/* general */ 
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 175vh;
+    margin: 0;
+    background-color: #d4bbea;
+}
+
+/* intro */
+
+.heading h2 {
+    margin-left: 140px;;
+}
+
+
+.heading h3 {
+    margin-left: 250px;
+
+   
+}
+
+.heading h4 {
+    padding-bottom: 20px;
+    margin-left: 20px;
+    font-weight: normal;
+    
+}
+
+
+
+/* card */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+
+}
+
+.card-group {
+
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+}
+img {
+    width: 550px;
+    height: 400px; 
+
+
+}
+
+
+
+.card {
+    width: 550px;
+    height: 400px;
+    position: relative;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    margin-right: 50px;
+    margin-bottom: 40px;
+  
+    
+}
+
+.card-inner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card-front {
+    
+    background-color: #fff;
+}
+
+.card-back {
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbfbfb;
+    color: rgb(6, 5, 5);
+    font-size: 1.5em;
+   
+}
+
+h1, p {
+    margin:20px;
+    font-size: smaller;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card.flipped .card-inner {
+    transform: rotateY(180deg);
+}
+
+
+/* button */ 
+
+.click {
+    margin-top: 10px; 
+    margin-right: 50px;
+    padding: 10px 20px; 
+    font-size: 18px; 
+    color: rgb(0, 0, 0); 
+    background-color: #fdfdfd; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    transition: transform 0.3s, background-color 0.3s; 
+    font-family: fantasy;
+}
+
+.click2 {
+
+    margin-top: 20px; 
+    padding: 10px 20px; 
+    font-size: 18px; 
+    color: rgb(0, 0, 0); 
+    background-color: #7271b1; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    transition: transform 0.3s, background-color 0.3s; 
+    font-family: fantasy;
+
+}
+
+
+.click:hover {
+    transform: scale(1.1);
+    background-color: whitesmoke; 
+}
+
+.click2:hover {
+    transform: scale(1.1);
+    background-color: #9897ac ;
+}
+/*footer*/
+
+/*.footer h3 {
+    margin-top: 100px;
+    margin-left: 7px;
+   
+    
+}
+
+
+.footer a {
+    margin-left: 30px;
+    
+    color:black
+}*/
+
+.footer h3 {
+    margin-top: 100px;
+    margin-right: 50px;
+    
+    
+}
+
+
+.footer a {
+    
+    margin-left: 20px;
+    color:black
+}
+
